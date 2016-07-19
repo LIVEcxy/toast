@@ -1,10 +1,8 @@
-/**
- * @fileoverview 工具提示组件
- * @author zh (zhangguoqiang@baidu.com)
- *         dk (judongkun@baidu.com)
- * @date 2013-08-28
- * @version 1.0
- */
+	
+	v1.0
 
+	是否依赖第三方库：否
 
-	引入toats.js , 调用 toats()方法即可。
+	调用方法：
+	
+		引入toats.js , 调用 toats()方法即可。
