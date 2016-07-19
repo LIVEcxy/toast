@@ -15,22 +15,24 @@ function toast(a,b){
 		ToatsDom.style.background = '#000';
 		ToatsDom.style.color = '#fff';
 		ToatsDom.style.padding = '10px';
+		ToatsDom.style.maxWidth = '160px'
 	var Bl = document.body.firstChild; 
 
 	document.body.insertBefore(ToatsDom,Bl)
 
 	var ThisDom = document.getElementById('toats');
 	var ThisDomWidth = ThisDom.offsetWidth;
+	console.log(ThisDomWidth)
 	var ToatsDomLeft = '-'+(ThisDomWidth/2)+'px';
+	console.log(ToatsDomLeft)
 		ToatsDom.style.marginLeft = ToatsDomLeft;
 
-	if(b){
-		setTimeout('remove()',b)
-	}else{
-		setTimeout('remove()',3000)
-	}
-	}
-		
+		if(b){
+			setTimeout('remove()',b)
+		}else{
+			setTimeout('remove()',3000)
+		}
+			
 	}
 
  function remove(){
