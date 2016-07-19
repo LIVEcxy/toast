@@ -5,4 +5,4 @@
 
 	调用方法：
 	
-		引入toats.js , 调用 toats()方法即可。
+	引入toats.js , 调用 toats()方法即可。
