@@ -1,7 +1,10 @@
-/  ************  /
-/*	2016-07-19
-/*	×÷Õß:simin
-/*	×¢Ã÷³ö´¦
-/  ************  /
+/**
+ * @fileoverview å·¥å…·æç¤ºç»„ä»¶
+ * @author zh (zhangguoqiang@baidu.com)
+ *         dk (judongkun@baidu.com)
+ * @date 2013-08-28
+ * @version 1.0
+ */
 
-	ÒıÈëtoats.js , µ÷ÓÃ toats()·½·¨¼´¿É¡£
+
+	å¼•å…¥toats.js , è°ƒç”¨ toats()æ–¹æ³•å³å¯ã€‚
