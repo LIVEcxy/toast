@@ -22,9 +22,8 @@ function toast(a,b){
 
 	var ThisDom = document.getElementById('toats');
 	var ThisDomWidth = ThisDom.offsetWidth;
-	console.log(ThisDomWidth)
 	var ToatsDomLeft = '-'+(ThisDomWidth/2)+'px';
-	console.log(ToatsDomLeft)
+
 		ToatsDom.style.marginLeft = ToatsDomLeft;
 
 		if(b){
