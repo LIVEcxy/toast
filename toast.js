@@ -24,9 +24,14 @@ function toast(a,b){
 	var ToatsDomLeft = '-'+(ThisDomWidth/2)+'px';
 		ToatsDom.style.marginLeft = ToatsDomLeft;
 
-
+	if(b){
 		setTimeout('remove()',b)
-}
+	}else{
+		setTimeout('remove()',3000)
+	}
+	}
+		
+	}
 
  function remove(){
 	var ThisDom = document.getElementById('toats');
