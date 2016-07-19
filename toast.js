@@ -1,4 +1,4 @@
-function toast(a){
+function toast(a,b){
 	if(!a){
 		return
 	}else if(document.getElementById('toats')){
@@ -25,7 +25,7 @@ function toast(a){
 		ToatsDom.style.marginLeft = ToatsDomLeft;
 
 
-		setTimeout('remove()',3000)
+		setTimeout('remove()',b)
 }
 
  function remove(){
